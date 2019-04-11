@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Routing from './components/route';
+import {Link} from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -9,10 +11,9 @@ class App extends Component {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <Link to="/cv">Resume</Link>
+                <Link to="/aboutme">About me</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
@@ -25,6 +26,7 @@ class App extends Component {
         </Drawer>
         <Content>
             <div className="page-content" />
+            <Routing />
         </Content>
     </Layout>
 </div>

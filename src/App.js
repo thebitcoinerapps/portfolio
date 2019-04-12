@@ -11,16 +11,17 @@ class App extends Component {
     <Layout>
         <Header className="header-background" title="My Portfolio" scroll>
             <Navigation>
-                <Link to="/cv">Resume</Link>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/">MAIN</Link>
+                <Link to="/cv">RESUME</Link>
+                <Link to="/aboutme">PROJECTS</Link>
+                <Link to="/contact">CONTACT</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Menu">
             <Navigation>
-                <Link to="/cv">Resume</Link>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/cv">RESUME</Link>
+                <Link to="/aboutme">PROJECTS</Link>
+                <Link to="/contact">CONTACT</Link>
             </Navigation>
         </Drawer>
         <Content>

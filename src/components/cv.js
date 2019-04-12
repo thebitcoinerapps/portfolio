@@ -4,7 +4,7 @@ class Cv extends React.Component{
 
     render(){
         return(
-            <div>Cv</div>
+            <div class="container"></div>
         );
     };
 

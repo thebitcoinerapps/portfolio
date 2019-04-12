@@ -4,7 +4,7 @@ class Contact extends React.Component{
 
     render(){
         return(
-            <div>Contact</div>
+            <div className="container"></div>
         );
     };
 

@@ -10,7 +10,7 @@ class Main extends React.Component{
                     <Cell col={12}>
                         <img src={img} alt="avatar"></img>
                         <div className="banner-text">
-                        <h1>Full Stack Web Developer</h1>
+                        <h1>An Wannabe Full Stack Web Developer</h1>
                         <p>JavaScript | NodeJs | HTML | CSS | React | Redux | Android</p>
                         <div className="social">
                         <a href='https://github.com/thebitcoinerapps' target="_blank">
